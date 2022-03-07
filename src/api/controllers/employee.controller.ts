@@ -1,7 +1,6 @@
 import { Body, Controller, Get, Post, Query } from '@nestjs/common';
-import { ApiOkResponse, ApiResponse } from '@nestjs/swagger';
-import { EmployeeRequest } from 'src/application/maps/employeeRequest';
-import { EmployeeService } from 'src/application/services/employee.service';
+import { EmployeeRequest } from '../../application/maps/employeeRequest'
+import { EmployeeService } from '../../application/services/employee.service';
 
 @Controller('employee')
 export class EmployeeController {

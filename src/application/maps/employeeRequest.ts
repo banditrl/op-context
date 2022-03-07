@@ -1,5 +1,5 @@
-import { ApiProperty } from "@nestjs/swagger";
-import { EmployeeType } from "src/domain/enums/employeeType";
+import { ApiProperty } from '@nestjs/swagger';
+import { EmployeeType } from '../../domain/enums/employeeType';
 
 export class EmployeeRequest {
   @ApiProperty()
