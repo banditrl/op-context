@@ -1,0 +1,9 @@
+{
+  "type": "sqlite",
+  "connectString": "DataSource=:memory:;Foreign Keys=False",
+  "database": "OpContext",
+  "synchronize": true,
+  "entities": [
+    "dist/**/domain/entities/*{.ts,.js}"
+  ]
+}
